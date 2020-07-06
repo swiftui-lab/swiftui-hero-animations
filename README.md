@@ -7,6 +7,14 @@ This project demonstrates how to use the new SwiftUI `.matchedGeometryEffect()` 
 
 This project is part of the two-part article ["MatchedGeometryEffect - Part 1 (Transitions)"](https://swiftui-lab.com/matchedGeometryEffect-part1), which describes the concepts needed to create a transition that not only moves a view from the location and size of another, but also provides a way of morphing it in a way, so it seems the outgoing view **"becomes"** the incoming view.
 
+# Requirements
+
+This project needs to run with iOS 14.0.
+
+It has been tested on an iPad 9.7" running at full screen. However, the code is designed to easily adapt to any window size. You simply need to set the right values in the HeroConfiguration variable. In fact, the code does that already when the device is rotated. The HeroConfiguration is different for each orientation.
+
+TODO: In a future update, I will make it adapt to any window size, no matter which device it is running on.
+
 # How to Use the Project
 
 This app demonstrates how to create hero animations and you can interact with them. But you can also change its parameters. You can open the configuration popover from two places:
