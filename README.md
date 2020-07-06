@@ -91,7 +91,7 @@ Creates two transitions:
 |`modal`|Sets the `.modalTransitionPercent` environment key to the percentage of the transition progress. Used by the modal to progressively transform from the thumbnail to the modal.|
 |`invisible`|This transition will cause the view to disappear, until the last frame of the animation is reached|
 
-### `Animations.swift
+### `Animations.swift`
 Provides a name for the animations used in the project so they are centralized and consistent in one place:
 
 |Animation static variable|Description|
